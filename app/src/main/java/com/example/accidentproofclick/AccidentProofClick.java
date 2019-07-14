@@ -8,8 +8,8 @@ import com.example.accidentproofclick.reflect.ReflectHelper;
 
 /**
  * @author: robin
- * @description:
- * @date: 2014/7/12
+ * @description:防止快速点击
+ * @date: 2014/4/12
  **/
 public class AccidentProofClick implements View.OnTouchListener {
     String TAG = "AccidentProofClick";

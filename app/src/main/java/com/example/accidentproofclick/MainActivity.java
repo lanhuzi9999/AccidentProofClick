@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TextView accidentProofClickTv = findViewById(R.id.accident_proofclick);
-        //使用
+        //AccidentProofClick的使用
         AccidentProofClick mAccidentProofClick = new AccidentProofClick();
         accidentProofClickTv.setOnTouchListener(mAccidentProofClick);
     }
